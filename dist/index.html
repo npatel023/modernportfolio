@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/2d3334abe5.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--minified CSS -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- JQuery -->
+    <script src="js/jquery.js"> </script>
+
+    <title>Neil Patel</title>
+</head>
+<body onscroll="scrollTop()">
+    
+    <div id="landing-page">
+        <div class="navbar-fixed">
+            <nav id="navbar" class="transparent">
+                <ul class="nav-text">
+                    <li><a href="#landing-page"><i class="material-icons">home</i></a></li>
+                    <li><a class="nav-text" href="#About">About</a></li>
+                    <li><a class="nav-text" href="#Project-Experience">Project Experience</a></li>
+                    <li><a class="nav-text" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="flex center">
+            <h1 class="title">Neil Patel</h1>
+            <h2 class="second-title">Web Developer</h2> 
+        </div>
+
+    </div>
+
+    <section class="grey lighten-2 scrollspy" id="About">
+        <div>
+            <h1 class="about-title center-align grey-text text-darken-2"> About Me </h1>
+        </div>
+        <div class="about-description container">
+            <p class="about-intro flow-text grey-text text-darken-2"> I am a graduating senior at Texas Tech University majoring in Computer Science with a minor in 
+            Mathemathics and I am pursuing a career as a full stack web developer in the tech industry. </p>
+            <br>
+            <p class="about-intro flow-text grey-text text-darken-2"> Being an avid learner, I have discovered a passion for knowledge and I am constantly refining my skills. My drive pushes me to go above and beyond expectations. I discovered my love for web development while working on my first commercial web application.</p>
+        </div>
+        <div class="center">
+                <img id="me-img" class="responsive-img circle" src = "/img/me.jpg">    
+        </div>
+    </section>
+    
+
+    <section id="Project-Experience" class="blue-grey darken-4 scrollspy">
+        <h1 class="project-title center-align blue-grey-text text-lighten-4">Project Experience</h1>
+        <div id="project-description" class="container">
+            <p class="project-description flow-text blue-grey-text text-lighten-4">My first project was designing and developing a social media wall for <span> <a class="blue-text text-lighten-4"href="http://4oregolf.com/social_wall/index.php" target="_blank"> 4ORE! Golf</a></span>
+                The social wall pulls hashtags and displays posts in a grid allowing guests to showcase their experiences. Posts are flipped and rotated every five seconds. I created two versions of the social wall; one is used in the main lobby and the other is used on the company website.
+            </p>
+        </div>
+            <div class="container social-project">
+                <div class="row">
+                    <div class="col s12 m12 l7">
+                        <img class="responsive-img funwall materialboxed" src="img/FunSocialWall.jpg">
+                    </div>
+                
+                    <div class="col s12 m12 l5">
+                        <img class="responsive-img materialboxed" src="img/SocialWall.jpg">
+                    </div>
+                </div>
+            </div>
+    <br>
+        <div class="container">
+            <p class="project-description flow-text blue-grey-text text-lighten-4">
+                    For my senior capstone project I worked alongside a group of software developers to create an unbiased news outlet using the Django web framework in Python. My role was to set up the database to store articles, display articles in an appealing way, and implement a save and share feature for end users. We decided to present each article in a modal (enlarged view) so users are able to focus on one article at a time.    
+            </p>
+            <p class="project-description flow-text blue-grey-text text-lighten-4">
+                    We developed two algorithms that we believed separated our site from other news outlets, which were basic fact checking and sentiment analysis. The fact checking algorithm used websites such as Snopes and factChecker to check the accuracy of every article. Sentiment analysis determines the attitude of the article text and data is presented in the following categories: positive, negative, and neutral. The results were displayed in a pie chart. While we were able to successfully showcase our project's concept, we believe it can be improved.
+            </p>
+        </div>
+            <div class="container">
+                <div class="row newstack-row">
+                    <div class="col s12 m12 l6">
+                        <img style="margin-top:8px;"class="responsive-img materialboxed funwall" src="img/newstack.jpg">
+                    </div> 
+                    <div class="col s12 m12 l6">
+                        <img class="responsive-img materialboxed" src="img/newstackModal.jpg">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+        });
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy({
+                scrollOffset: 15,
+                throttle: 0
+            });
+        });
+    </script>
+
+
+    <footer id="contact" class="grey lighten-3 z-depth-5 scrollspy">
+            <p class="end-message flow-text blue-grey-text text-darken-3 left-align"> I am full stack web developer and his goal is to keep creating innovative websites. </p>
+            <div class="container">
+            <p class="email flow-text blue-grey-text text-darken-3 center-align"> <i class="material-icons icon">email</i> E-mail: npatel023@nsquaredcoding.com</p>
+            <div class="row icon-row">
+                <span id="connect" class="blue-grey-text text-darken-3">Connect with me:</span>
+                <div class="inline-icon">
+                        <a style="text-decoration: none; color: black;" href="https://www.linkedin.com/in/neil-patel-50870431/" target="_blank"> <i class="fa fa-linkedin li" aria-hidden="true"></i> </a>
+                </div>
+                <div class="inline-icon">
+                        <a style="text-decoration: none; color: black;" href="https://github.com/npatel023" target="_blank"> <i class="fa fa-github li" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
