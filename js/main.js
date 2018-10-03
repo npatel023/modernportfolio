@@ -1,8 +1,8 @@
 function scrollTop(){
-    let element = document.documentElement.scrollTop;
-    //let x = element.scrollTop;
-
+    let element = window.pageYOffset;
+    
     if(element > 0){
+        
         document.getElementById("navbar").classList.remove("transparent");
         document.getElementById("navbar").classList.add("black");
     }
