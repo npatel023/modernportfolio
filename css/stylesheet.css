@@ -47,11 +47,11 @@
 }
 
 .title{
-    font-size: 3.5rem;
+    font-size: 5.5rem;
 }
 
 .second-title{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* About Section */
@@ -139,7 +139,7 @@
 
 .end-message{
     padding: 5px;
-    max-width: 920px;
+    max-width: 945px;
     margin: auto;
     border-bottom: 3px solid #1565c0;
 }
@@ -180,16 +180,6 @@
 @media(min-width: 1422px){
     .end-message{
         text-align: center !important;
-    }
-}
-
-@media (min-width: 1200px){
-    .title{
-        font-size: 7em;
-    }
-    
-    .second-title{
-        font-size: 3em;
     }
 }
 
