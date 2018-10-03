@@ -68,7 +68,7 @@
 
 .about-intro{
     padding: 0px 0px;
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 
 /* Project Experience */
@@ -85,7 +85,7 @@
 }
 
 .project-description{
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 
 .funwall{
@@ -110,13 +110,13 @@
 
 @media (max-width: 400px){
     .nav-text{
-        font-size: 1em;
+        font-size: 1rem;
     }
     .about-title{
-        font-size: 2.15em;
+        font-size: 2.15rem;
     }
     .project-title{
-        font-size: 3em;
+        font-size: 3rem;
     }
 }
 
@@ -124,10 +124,10 @@
 
 @media (min-width: 400px) and (max-width: 535px){
     .about-title{
-        font-size: 3em;
+        font-size: 3rem;
     }
     .project-title{
-        font-size: 3.2em;
+        font-size: 3.2rem;
     }
 }
 
