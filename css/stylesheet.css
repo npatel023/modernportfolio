@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Landing-Page */
+#landing-page{
+    background: #333 url('/img/img1.jpeg') no-repeat center center / cover;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#me-img {
+    height: 350px;
+    width: 350px;
+}
+
+
+#navbar{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-text{
+    font-size: 1.15em;
+}
+
+
+.home-icon{
+    border: 1px solid red;
+}
+
+.title, .second-title{
+    font-weight: 200;
+    margin: 0.4rem;
+    color: #ccc;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    font-size: 3.5rem;
+}
+
+.second-title{
+    font-size: 3.5rem;
+}
+
+/* About Section */
+#About{
+    padding-bottom: 40px;
+}
+
+.about-title{
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 65px;
+    padding-bottom: 35px
+}
+
+.about-intro{
+    padding: 0px 0px;
+    font-size: 1.15em;
+}
+
+/* Project Experience */
+
+.project-title{
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#project-experience a{
+    text-decoration: none;
+}
+
+.project-description{
+    font-size: 1.15em;
+}
+
+.funwall{
+    margin-top: 40px;
+}
+
+.social-project{
+    margin-top: 50px;
+}
+
+
+.newstack-row{
+    margin: 50px 0;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 992px){
+    .funwall{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 400px){
+    .nav-text{
+        font-size: 1em;
+    }
+    .about-title{
+        font-size: 2.15em;
+    }
+    .project-title{
+        font-size: 3em;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 535px){
+    .about-title{
+        font-size: 3em;
+    }
+    .project-title{
+        font-size: 3.2em;
+    }
+}
+
+
+/* Footer */
+#contact{
+    padding: 20px;
+}
+
+.end-message{
+    padding: 5px;
+    max-width: 920px;
+    margin: auto;
+    border-bottom: 3px solid #1565c0;
+}
+
+.email{
+    padding: 5px;
+}
+
+.icon{
+    vertical-align: bottom;
+}
+
+.icon-row{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inline-icon{
+    display: inline-block;
+    padding: 10px;
+}
+
+.li{
+    font-size: 20px;
+}
+
+#connect {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 700px){
+    .icon{
+        padding-bottom: 4px;
+    }
+}
+
+@media(min-width: 1422px){
+    .end-message{
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 1200px){
+    .title{
+        font-size: 7em;
+    }
+    
+    .second-title{
+        font-size: 3em;
+    }
+}
+
+
