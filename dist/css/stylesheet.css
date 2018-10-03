@@ -9,7 +9,7 @@
 
 /* Landing-Page */
 #landing-page{
-    background: #333 url('https://npatel023.github.io/modernportfolio/img/img1.jpeg') no-repeat center center / cover;
+    background: #333 url('img1.jpeg') no-repeat center center / cover;
     height: 100vh;
 }
 
