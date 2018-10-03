@@ -102,43 +102,6 @@
     padding-bottom: 100px;
 }
 
-@media (max-width: 992px){
-    .funwall{
-        margin-bottom: 50px;
-    }
-}
-
-@media (max-width: 400px){
-    .nav-text{
-        font-size: 1rem;
-    }
-    .second-title {
-        padding-bottom: 2.4rem;
-        -webkit-text-stroke: 0.1px black;
-    }
-    .about-title{
-        font-size: 2.15rem;
-    }
-    .project-title{
-        font-size: 3rem;
-    }
-}
-
-
-
-@media (min-width: 400px) and (max-width: 535px){
-    .about-title{
-        font-size: 3rem;
-    }
-    .second-title {
-        padding-bottom: 2.4rem;
-        -webkit-text-stroke: 0.1px black;
-    }
-    .project-title{
-        font-size: 3.2rem;
-    }
-}
-
 
 /* Footer */
 #contact{
@@ -178,6 +141,49 @@
     font-weight: 400;
     font-size: 1.3rem;
 }
+
+
+@media (max-width: 400px){
+    .nav-text{
+        font-size: 1rem;
+    }
+    .second-title {
+        padding-bottom: 2.4rem;
+        -webkit-text-stroke: 0.1px black;
+    }
+    .about-title{
+        font-size: 2.15rem;
+    }
+    .project-title{
+        font-size: 3rem;
+    }
+    .end-message {
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 535px){
+    .about-title{
+        font-size: 3rem;
+    }
+    .second-title {
+        padding-bottom: 2.4rem;
+        -webkit-text-stroke: 0.1px black;
+    }
+    .project-title{
+        font-size: 3.2rem;
+    }
+    .end-message {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 992px){
+    .funwall{
+        margin-bottom: 50px;
+    }
+}
+
 
 @media (min-width: 700px){
     .icon{
