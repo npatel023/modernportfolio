@@ -24,8 +24,8 @@
     
     <div id="landing-page">
         <div class="navbar-fixed">
-            <nav id="navbar" class="transparent">
-                <ul class="nav-text">
+            <nav id="navbar" class="transparent nav-text hide-on-small-only">
+                <ul class="">
                     <li><a href="#landing-page"><i class="material-icons">home</i></a></li>
                     <li><a class="nav-text" href="#About">About</a></li>
                     <li><a class="nav-text" href="#Project-Experience">Project Experience</a></li>
@@ -38,7 +38,6 @@
             <h1 class="title">Neil Patel</h1>
             <h2 class="second-title">Web Developer</h2> 
         </div>
-
     </div>
 
     <section class="grey lighten-2 scrollspy" id="About">
@@ -126,6 +125,11 @@
         
     </footer>
 
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
 
     <script src="js/main.js"></script>
     <!-- Compiled and minified JavaScript -->
