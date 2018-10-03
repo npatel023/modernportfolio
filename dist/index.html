@@ -24,7 +24,7 @@
     
     <div id="landing-page">
         <div class="navbar-fixed">
-            <nav id="navbar" class="transparent nav-text hide-on-small-only">
+            <nav id="navbar" class="transparent">
                 <ul class="">
                     <li><a href="#landing-page"><i class="material-icons">home</i></a></li>
                     <li><a class="nav-text" href="#About">About</a></li>
@@ -95,19 +95,6 @@
             </div>
     </section>
 
-    <script>
-        $(document).ready(function(){
-            $('.materialboxed').materialbox();
-        });
-        $(document).ready(function(){
-            $('.scrollspy').scrollSpy({
-                scrollOffset: 15,
-                throttle: 0
-            });
-        });
-    </script>
-
-
     <footer id="contact" class="grey lighten-3 z-depth-5 scrollspy">
             <p class="end-message flow-text blue-grey-text text-darken-3 left-align"> I am a full stack web developer and my goal is to always keep learning and creating.</p>
             <div class="container">
@@ -127,7 +114,13 @@
 
     <script>
         $(document).ready(function(){
-            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+        });
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy({
+                scrollOffset: 15,
+                throttle: 0
+            });
         });
     </script>
 

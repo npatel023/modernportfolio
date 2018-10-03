@@ -21,8 +21,8 @@
 }
 
 #me-img {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
 }
 
 
@@ -112,6 +112,10 @@
     .nav-text{
         font-size: 1rem;
     }
+    .second-title {
+        padding-bottom: 2.4rem;
+        -webkit-text-stroke: 0.1px black;
+    }
     .about-title{
         font-size: 2.15rem;
     }
@@ -125,6 +129,10 @@
 @media (min-width: 400px) and (max-width: 535px){
     .about-title{
         font-size: 3rem;
+    }
+    .second-title {
+        padding-bottom: 2.4rem;
+        -webkit-text-stroke: 0.1px black;
     }
     .project-title{
         font-size: 3.2rem;
