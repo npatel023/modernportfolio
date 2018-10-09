@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://npatel023.github.io/modernportfolio",
   "dependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.0",
+    "npm": "^6.4.1"
   }
 }
